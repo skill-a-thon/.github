@@ -7,4 +7,4 @@ Here's the [Starter Kit](https://docs.google.com/presentation/d/1yE-tsrMZyWV41CG
 
 Additional documents for reference:
 1. DSEP [APIs](https://github.com/beckn/DSEP-Specification/blob/master/api/dsep.yaml)
-2. Training & Courses: [Schema Mapping](https://docs.google.com/spreadsheets/d/1cgBe3RlE4zi5mkdNYhpUtmYXoDbeaa4OoXDbIqHwe8g/edit#gid=0)
+2. Training & Courses: [Schema Mapping](https://docs.google.com/spreadsheets/d/1cgBe3RlE4zi5mkdNYhpUtmYXoDbeaa4OoXDbIqHwe8g/edit#gid=0) and [reference BPP documentation](https://github.com/Samagra-Development/dsep/blob/master/README.md)
