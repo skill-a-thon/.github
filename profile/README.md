@@ -27,10 +27,10 @@ All submissions to Skill-A-Thon 1.0 need to be made as a pull-request to the sub
    d. Architecture
 
 4. Demo 
+ 
+   a. Demo video (3-5 min)
   
-  a. Demo video (3-5 min)
-  
-  b. Link to live running application or downloadable apk
+   b. Link to live running application or downloadable apk
 
 5. User guide
    
@@ -41,7 +41,6 @@ All submissions to Skill-A-Thon 1.0 need to be made as a pull-request to the sub
    c. Sample inputs and expected outputs
 
 6. Developer guide
-
    
    a. Dependencies (ex: android device if apk, softwares/libraries to be installed, etc.)
    
