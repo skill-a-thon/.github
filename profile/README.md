@@ -25,6 +25,8 @@ All submissions to Skill-A-Thon 1.0 need to be made as a pull-request to the sub
    c. Tech stack
    
    d. Architecture
+   
+   e. Open-source and Digital Public Goods leveraged/used
 
 4. Demo 
  
