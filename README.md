@@ -22,7 +22,9 @@ Moving forward we even created a discord server customised especially according 
 
 
 <h2>User Guide</h2>
-![image](https://user-images.githubusercontent.com/79694271/221420343-a3bd7780-6b62-4809-91a3-417312dde50c.png)
+
+![image](https://user-images.githubusercontent.com/79694271/221420366-e17a9b15-73cf-4022-b0d5-8bc6dfa7c564.png)
+
 
 
 <h2>Developer Guide</h2>
