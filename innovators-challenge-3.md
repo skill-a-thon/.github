@@ -22,12 +22,12 @@ Other than above, considering this was an effort which needed multiple companies
 
 We picked Challenge 3, to build a 'digital resume' with Verifiable Credentials as a focus. In this flow expected behavior is something like below:
 
- -> User will 'search' for a Job through DSEP (/search).
- -> User will be shown the listing of the Jobs as per the search criteria
- -> Upon clicking on the relavant job option to 'Apply' for, user will be taken to the page with details of his credentials.
- -> A Digital resume would be shown to user before applying for the job, where user can see his credentials listed with categories of 'Proof of Work', 'Proof of Skill' and 'Proof of Education'.
- -> He can add a VC JSON to this resume by clicking on 'Edit' in particular skill section
- -> Upon clicking the 'Submit' button, the list of VCs along with PDF would be submitted to the Job portal.
+ - User will 'search' for a Job through DSEP (/search).
+ - User will be shown the listing of the Jobs as per the search criteria
+ - Upon clicking on the relavant job option to 'Apply' for, user will be taken to the page with details of his credentials.
+ - A Digital resume would be shown to user before applying for the job, where user can see his credentials listed with categories of 'Proof of Work', 'Proof of Skill' and 'Proof of Education'.
+ - He can add a VC JSON to this resume by clicking on 'Edit' in particular skill section
+ - Upon clicking the 'Submit' button, the list of VCs along with PDF would be submitted to the Job portal.
 
 ### User Guide
 
