@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Listener</title>
+    <meta name="description" content="A computer vision powered classroom environment">
+    <link rel="stylesheet" href="{% static '/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static '/fonts/ionicons.min.css' %}">
+    <link rel="stylesheet" href="{% static '/css/Login-Form-Clean.css' %}">
+    <link rel="stylesheet" href="{% static '/css/Login-Form-Dark.css' %}">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}">
+</head>
+
+<body style="height: 100%;min-height: 100%;background: url({% static '/img/classroombg.jpg' %}) center / auto no-repeat;">
+    <div class="login-dark" style="background: url({% static '/img/classroombg.jpg' %});background-size: cover;">
+        <nav class="navbar navbar-light navbar-expand-md" style="text-align: center;background: #fbf8f8;border-style: solid;border-color: var(--blue);border-top-color: rgba(0,0,0,0.1);border-right-color: rgba(0,0,0,0.1);border-left-color: rgba(0,0,0,0.1);height: 70px;">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="background: transparent;color: var(--gray);font-weight: bold;">Listener Platform</a></div>
+        </nav>
+        <form method="post" style="border-radius: 47px;background: #f7f9fc;border-style: solid;border-color: var(--blue);width: 400px;max-width: 400px;">
+            {% csrf_token %}
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration"><i class="icon ion-android-person"></i></div>
+            <div class="form-group" style="border-color: var(--blue);"><input class="form-control" name="username" type="text" style="height: 50px;border-radius: 25px;border: 1px solid var(--blue);padding: 20px;color: var(--blue);font-size: 17px;" placeholder="Username"></div>
+            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password" style="height: 50px;color: var(--dark);border-radius: 25px;border: 1px solid var(--blue);padding: 20px;font-size: 17px;margin-top: 10px;"></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background: var(--blue);border-style: solid;border-radius: 31px;margin-top: 40px;">LOGIN</button></div>
+            {% for message in messages %}
+                <p id = "messages" style="color: red; font-weight: bold;">{{message}}</p>
+            {% endfor %}
+        </form>
+        
+    </div>
+    <script src="{% static '/js/jquery.min.js' %}"></script>
+    <script src="{% static '/bootstrap/js/bootstrap.min.js' %}"></script>
+</body>
+
+</html>

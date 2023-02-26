@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Listener</title>
+    <meta name="description" content="A computer vision powered classroom environment">
+    <link rel="stylesheet" href="{% static '/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static '/fonts/ionicons.min.css' %}">
+    <link rel="stylesheet" href="{% static '/css/Login-Form-Clean.css' %}">
+    <link rel="stylesheet" href="{% static '/css/Login-Form-Dark.css' %}">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}">
+</head>
+
+<body style="height: 100%;min-height: 100%;">
+    <nav class="navbar navbar-light navbar-expand-md" style="height: 70px;border-bottom: 3px solid var(--blue) ;">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="font-weight: bold;color: var(--gray);">Listener Platform</a><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+        <a href={% url 'logout' %}><button class="btn btn-primary" type="button" style="font-weight: bold;"><i class="icon ion-log-out" style="padding: 2px;"></i>Logout</button></a>
+    </nav>
+    <div id="meet" style="width: 100%; height: 1000px;"></div>
+    <p style="visibility: gone;" id="fn_txt">{{fullname}}</p>
+    <p style="visibility: gone;" id="em_txt">{{email}}</p>
+    <script src='https://meet.jit.si/external_api.js'></script>
+    <script>
+        const domain = 'meet.jit.si';
+        const options = {
+            roomName: 'amHacks/Classroom101',
+            userInfo: {
+                email: document.getElementById('em_txt').text,
+                displayName: document.getElementById('fn_txt').text,
+            },
+            parentNode: document.querySelector('#meet')
+        };
+        const api = new JitsiMeetExternalAPI(domain, options);
+    </script>
+    <script src="{% static '/js/jquery.min.js' %}"></script>
+    <script src="{% static '/bootstrap/js/bootstrap.min.js' %}"></script>
+</body>
+
+</html>
