@@ -4,4 +4,4 @@ The file to be have the details as mentioned below
 
 | Team Name | Team members | Product version | Product document | Product demo | User guide | Source code | Developer guide |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Example | Member 1, Member 2 | 0.5 | [Product document](https://example.com/product-document.md) | [Product demo](https://example.com/product-demo.mp4) | [User guide](https://example.com/user-guide.md) | [Source code](https://github.com/example/repo) | [Developer guide](https://example.com/developer-guide.md) |
+| Agastya | Pankaj Chowdhury, Bikram Ghosh, Ajay Chowdhury | 0.5 | [Product document](https://github.com/pankajChowdhury/EduReka/blob/main/README.md) | [Product demo](https://vimeo.com/802227141) | [User guide](https://github.com/pankajChowdhury/EduReka/blob/main/README.md#users-guide-) | [Source code](https://github.com/pankajChowdhury/EduReka/blob/main/app.py) | [Developer guide](https://github.com/pankajChowdhury/EduReka/blob/main/README.md#users-guide-) |
