@@ -65,6 +65,9 @@ git clone https://github.com/dhiway/digital-resume
 
 3. npm run start
 
+----
+
+The Same VC which would get added in the digital resume can be verified by copy-pasting (or drag-dropping in Verification Tool - https://verify-demo.dhiway.com)
 
 ### Source code
 
