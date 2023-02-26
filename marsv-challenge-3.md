@@ -1,14 +1,20 @@
-MARSV-Challenge-3
+## MARSV-Challenge-3
 
-Team Name: MARS-V
-Product Name: Pramaanya Setu
+**Team Name: MARS-V**
+**Product Name: Pramaanya Setu**
 
-Team Members:
+**Team Members:**
+
 Ashish Shetty, shettysahab@gmail.com, 7411336485
+
 Sai Kiran Rai, saikiranr07@gmail.com, 8095774802
+
 Mohith Gowda D M, mohith.m21@iimb.ac.in, 9886105067 
+
 Venkatesh Naik, nvnvenki@gmail.com, 9980603848
+
 Rama Subramanian R, rama0694@gmail.com, 9591106622
+
 
 
 | **Team Name**  | **Team Members**   | **Challenge Number** | **Product Version** | **Product Document**                                                                             | **Product Demo**               | **User Guide**                                                                                   | **Source Code**                    | **Developer Guide**                                                                              |
