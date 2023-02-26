@@ -4,4 +4,4 @@ The file to be have the details as mentioned below
 
 | Team Name | Team members | Product version | Product document | Product demo | User guide | Source code | Developer guide |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Example | Member 1, Member 2 | 0.5 | [Product document](https://example.com/product-document.md) | [Product demo](https://example.com/product-demo.mp4) | [User guide](https://example.com/user-guide.md) | [Source code](https://github.com/example/repo) | [Developer guide](https://example.com/developer-guide.md) |
+| Example | Member 1, Member 2 | 0.5 | [Product document](https://drive.google.com/file/d/1PFV72DNZb1djauf5gkLF0hTFhMD9VJXe/view?usp=sharing) | [Product demo](https://drive.google.com/file/d/1XbpMo_ac8f9fkvudC__gaLCsHFDaOc9V/view?usp=sharing) | [User guide](https://github.com/vijayaadithyan/realtime-student-engagement-tracker-for-online-education/blob/main/README.md) | [Source code](https://github.com/vijayaadithyan) | [Developer guide](https://www.linkedin.com/in/vijayaadithyan-v-g-a136a8211/) |
