@@ -1,0 +1,4 @@
+| Team Name | Team members                                   | Product version | Product document | Product demo | User guide | Source code | Developer guide |
+|-----------|------------------------------------------------|-----------------| ----- | ----- | ----- | ----- | ----- |
+| Mind inc. | Rakesh V Thampy, Delon Rons Thambi, Manoranjan | 1.0             | [Product document](https://docs.google.com/document/d/1HLcUIY64IClkxMoOTJCssdwD3NE6RolHkww9bgWCj8w/edit) | [Product demo](https://drive.google.com/drive/folders/136CpdxpN4XEodMZ57zYT_e9LjgEAP1WB?usp=sharing) | [User guide](https://docs.google.com/document/d/1t9HfehHzih76Ct5zMTtzEYk2UIKa41CqufYhJyvxoPU/edit) | [Source code](https://github.com/Mind-Inc/mapetit-jobs) | [Developer guide](https://github.com/Mind-Inc/mapetit-jobs/blob/main/README.md) |
+
