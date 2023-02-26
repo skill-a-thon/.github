@@ -2,7 +2,7 @@
 
 ## Skill-A-Thon 1.0. 
 
-All submissions to Skill-A-Thon 1.0 need to be made as a pull-request to the submissions list here: https://github.com/skill-a-thon/.github/blob/main/skill-a-thon-1.0-submissions.md
+All submissions to Skill-A-Thon 1.0 need to be made as a pull-request to the submission repo here -https://github.com/skill-a-thon/.github. Please create a pull request, with a new file in the root of the repository with the file name in the format - **{{team-name}}-challenge-{{1/2/3/4/5}}.md** and file should be in the format as mentioned in https://github.com/skill-a-thon/.github/blob/main/skill-a-thon-1.0-submissions.md
 
 ### Submission checklist
 1. Team Details
