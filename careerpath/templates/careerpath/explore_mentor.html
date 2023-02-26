@@ -1,0 +1,30 @@
+{% extends 'careerpath/layout.html' %} {% block body %}
+
+<div class="explore_career_path_heading">
+  <h1>Meet The Mentors</h1>
+  <h5>The technology leaders of today</h5>
+</div>
+
+<form action="{% url 'exploreMentor' %}" , method="POST">
+  {% csrf_token %}
+  <div class="explore_career_path_cards">
+    {% for mentor in mentors %}
+    <div class="card" style="width: 20rem">
+      <img src="{{mentor.image_link}}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{mentor.mentor_name}}</h5>
+        <p class="card-text">{{mentor.description}}</p>
+      </div>
+      <div class="card-footer">
+        {% if user.is_authenticated %}
+        <button class="btn btn-dark" name="selected_mentor" value="{{ mentor.id }}"> Join </a> {% else %}
+        <a href="{% url 'login' %}" class="btn btn-dark">
+          To join, Please login
+        </a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</form>
+{% endblock %}

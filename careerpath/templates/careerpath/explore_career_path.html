@@ -1,0 +1,30 @@
+{% extends 'careerpath/layout.html' %} {% block body %}
+
+<div class="explore_career_path_heading">
+  <h1>Online Learning Modules</h1>
+  <h5>Learn about our flagship courses</h5>
+</div>
+
+<form action="{% url 'exploreCareerPath' %}" , method="POST">
+  {% csrf_token %}
+  <div class="explore_career_path_cards">
+    {% for course in courses %}
+    <div class="card" style="width: 20rem">
+      <img src="{{course.image_link}}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{course.course_name}}</h5>
+        <p class="card-text">{{course.description}}</p>
+      </div>
+      <div class="card-footer">
+        {% if user.is_authenticated %}
+        <button class="btn btn-dark" name="selected_course" value="{{ course.id }}"> Join </a> {% else %}
+        <a href="{% url 'login' %}" class="btn btn-dark">
+          To join, Please login
+        </a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</form>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'careerpath/layout.html' %} 
+{% block body %} 
+<div class="profile">
+  {% for profileInfo in profile %}
+    <h3>Your profile summary</h3>
+
+  {% endfor %}
+  <div class="userSelections">
+    <h3>Courses</h3>
+    {% for course in courses %}
+      <ul>
+        <li>{{course.course_name}}</li>
+      </ul>
+    {% empty %}
+      <ul>
+        <li>You have not selected any courses
+        </li>
+      </ul>
+    {% endfor %}
+    
+    <h3>Mentors</h3>
+    {% for mentor in mentors %}
+      <ul>
+        <li>{{mentor.mentor_name}}</li>
+      </ul>
+    {% empty %}
+      <ul>
+        <li>You have not selected any mentors
+        </li>
+      </ul>
+    {% endfor %}  
+      
+  </div>
+</div>
+{% endblock %}

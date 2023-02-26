@@ -1,0 +1,8 @@
+We are using Django Framework to create this project.
+Technology stack used:
+- Front end
+  1. html
+  2. Css
+  3. javascript
+- Backend
+  1. Python
