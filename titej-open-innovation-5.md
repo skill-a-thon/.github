@@ -1,14 +1,3 @@
-## Team Name
-### TiTej
-## Team members
-|S.No | Name |
-| ----- | ----- |
-| 1 | Pandu Ranga Varma Ankani |
-| 2 | Krishna Raj |
-| 3 | Sanjay Krishnan |
-| 4 | Vinayak Inamadar |
-| 5 | Lavanya KR |
-
-Version - 0.1
-
-Public codebase repo - https://github.com/tibil-it/ti-ace
+| Team Name | Team members | Product version | Product document | Product demo | User guide | Source code | Developer guide |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| TiTej | Pandu Ranga Varma Ankani, Krishna Raj, Sanjay Krishnan, Vinayak Inamadar, Lavanya KR | 0.1 | [Product document](https://github.com/tibil-it/ti-ace/tree/main/product-document) | [Product demo](https://github.com/tibil-it/ti-ace/tree/main/product-demo) | [User guide](https://github.com/tibil-it/ti-ace/tree/main/user-guide) | [Source code](https://github.com/tibil-it/ti-ace/tree/main/src) | [Developer guide](https://github.com/tibil-it/ti-ace/tree/main/developer-guide) |
