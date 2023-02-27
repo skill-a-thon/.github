@@ -31,6 +31,8 @@
 
 <h2>Product Demo</h2>
 
+* Demo video : 
+* Live application : [click here](https://anushkaghei.github.io/ThirdWheel-Challenge-4/)
 
 <h2>User Guide</h2>
 
