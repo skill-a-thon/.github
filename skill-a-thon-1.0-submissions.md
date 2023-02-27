@@ -1,7 +1,5 @@
-Please create a pull request, with a new file in the root of the repository with the file name in the format - **{{team-name}}-challenge-{{1/2/3/4/5}}.md**
-
-The file to be have the details as mentioned below
+Please send a pull request to the following table with your details
 
 | Team Name | Team members | Product version | Product document | Product demo | User guide | Source code | Developer guide |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Example | Member 1, Member 2 | 0.5 | [Product document](https://example.com/product-document.md) | [Product demo](https://example.com/product-demo.mp4) | [User guide](https://example.com/user-guide.md) | [Source code](https://github.com/example/repo) | [Developer guide](https://example.com/developer-guide.md) |
+| The Order Of ShikshaLokam Luminaries (OSL)  | Kiran Haridas, Ramkumar Nallusamy, Joffin joy, Vishwanath Badiger | 1.0 | [Product document](https://docs.google.com/document/d/1xCD1n-f8rsbPgZNmA9ESqr1AwsgrbVBz2BS6jel1fF0/edit?usp=sharing) | [Product demo](https://drive.google.com/drive/folders/1nWpdKSIclNrzE-eK4OaeHYgTjoawXejb?usp=sharing) | [User guide](https://docs.google.com/document/d/12gnoiyS6N4uE8NFr_5ulBK3qOTSmKL2A1mSAxDRks5w/edit?usp=sharing) | [Source code](https://docs.google.com/document/d/1awtTh2RK2-WKdalAe1bVQ7AzCFctSv7qI4g8sTxJ4M0/edit?usp=sharing) | [Developer guide](https://docs.google.com/document/d/1awtTh2RK2-WKdalAe1bVQ7AzCFctSv7qI4g8sTxJ4M0/edit?usp=sharing) |
