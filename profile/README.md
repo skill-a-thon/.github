@@ -1,8 +1,27 @@
-# Skill-A-Thon
+# Skill-A-Thon 1.0
 
-## Skill-A-Thon 1.0. 
+## Submission process
 
-All submissions to Skill-A-Thon 1.0 need to be made as a pull-request to the submission repo here -https://github.com/skill-a-thon/.github. Please create a pull request, with a new file in the root of the repository with the file name in the format - **{{team-name}}-challenge-{{1/2/3/4/5}}.md** and file should be in the format as mentioned in https://github.com/skill-a-thon/.github/blob/main/skill-a-thon-1.0-submissions.md
+- All submissions to Skill-A-Thon 1.0 need to be made as a pull-request to the submission repo here -https://github.com/skill-a-thon/.github. 
+- Please create a pull request, with a new file in the root of the repository with the file name in the format - **{{team-name}}-challenge-{{1/2/3/4/5}}.md** and 
+- File should be in the format as mentioned in https://github.com/skill-a-thon/.github/blob/main/skill-a-thon-1.0-submissions.md
+
+- Please use the template that was provided and do not delete the "skill-a-thon-1.0-submissions.md" file. 
+- Kindly make a copy of the file, modify it with your details, and re-submit the PR.
+- Kindly do not check-in (upload) your source code / code base. The template has placeholder fields to submit links to your source code.
+
+### Example submission
+1. Let's assume your team name is "Example" and you've participated in "Challenge 3"
+2. Create a copy of the "[skill-a-thon-1.0-submissions.md](https://github.com/skill-a-thon/.github/blob/main/skill-a-thon-1.0-submissions.md)"
+3. Fill your details in the template provided
+4. Ensure the file name is as per the file naming rules i.e. "{{team-name}}-challenge-{{1/2/3/4/5}}.md". So for this example submission, it will be "Example-Challenge-3.md"
+5. The submission file will contain following details as shown below 
+
+| Team Name | Team members | Product version | Product document | Product demo | User guide | Source code | Developer guide |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Example | Member 1, Member 2 | 0.5 | [Product document](https://example.com/product-document.md) | [Product demo](https://example.com/product-demo.mp4) | [User guide](https://example.com/user-guide.md) | [Source code](https://github.com/example/repo) | [Developer guide](https://example.com/developer-guide.md) |
+
+---
 
 ### Submission checklist
 1. Team Details
