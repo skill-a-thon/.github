@@ -1,0 +1,3 @@
+| Team Name | Team members | Challenge |  Product version | Product document | Product demo | User guide | Source code | Developer guide |
+| ----- |--- |----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| invincibles | Priyanshu Prasad, Shreyansh Singh, Aditya Mishra, Vishwajeet Prasad | 1 | 0.5 | [Product document](https://docs.google.com/presentation/d/1qYDiUHIV9q7V5-JNINnQz7j8sUy7Ytu3IPmp8mBNYfQ/edit?usp=sharing) | [Product demo](https://drive.google.com/file/d/1Z6p3cJBd99GpxYHSGmxh5afcpnQEEYD6/view?usp=sharing) | [User guide](https://github.com/priyanshuprasad22/CareerVista#user-guide) | [Source code](https://github.com/priyanshuprasad22/CareerVista#source-code) | [Developer guide](https://github.com/priyanshuprasad22/CareerVista#developer-guide) |
