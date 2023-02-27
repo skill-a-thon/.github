@@ -6,14 +6,14 @@ This is a team of different companies coming together to build a solution.
 
 | Team Name | Team members | Challenge Number | Product version | Product document | Product demo | User guide | Source code | Developer guide |
 |--|--|--|--|--|--|--|--|--|
-| Innovator | Giriraj D (Affinidi), Prashant M (Dhiway), Vikas J (BetterPlace), Denzil Lewis (Hacker Earth), Neeraj Sharma (SunStone) | 3 | 0.0.1 | [Product document](#product-document) | Product demo | [User guide](#user-guide) | [Source code](#source-code) | [Developer guide](#developer-guide) |
+| Innovator | Giriraj Daga (Affinidi), Prashant M (Dhiway), Vikas J (BetterPlace), Denzil Lewis (Hacker Earth), Neeraj Sharma (SunStone) | 3 | 0.0.1 | [Product document](#product-document) | Product demo | [User guide](#user-guide) | [Source code](#source-code) | [Developer guide](#developer-guide) |
 
 
 Other than above, considering this was an effort which needed multiple companies, and teams engaged, we had to include many more members in it.
 
 * Sankarshan (Dhiway)
 * Chaitanya S (Affinidi)
-* Hitesth S (Affindi)
+* Hitesth Songra (Affindi)
 * Ujjwal S (Dhiway)
 * Sujith B (Dhiway)
 * Amar T (Dhiway)
@@ -46,10 +46,11 @@ The project involves multiple pieces / projects working together.
      - with Affinidi's Developer tool kits.
      - by deploying the CORD sdk with an application,
 
-2. Wallet for storing the VC.
+2. Credentials Wallet for storing the VC.
   This is used as a storage /repository for User's VCs. Each wallet can have different ways of interacting and collecting VCs in them from the Issuers. But they should be having an option to export the VC of each credential when asked.
   -> Affinidi wallet can store VC issued from either of Dhiway Studio or Affinidi Toolkits.
   -> Dhiway is building the initial wallet, and hence, for now assumed VC can be available from system when the Credential is created and issued in the system. (directly using an URI)
+  -> User can view or share the stored VC as a qr code or URL from the wallet to use across systems 
 
 3. Digital Resume Tool
 
@@ -67,9 +68,11 @@ We are integrating with 'Affinidi Wallet' login (check the API's [Postman collec
 
 #### Build and run
 
-1. Clone the digital-resume repo
+1a. Clone the digital-resume repo
 
 git clone https://github.com/dhiway/digital-resume
+
+1b. Create an API Key using https://apikey.affinidi.com/ and update the environment variable 
 
 2. npm install
 
@@ -85,6 +88,8 @@ git clone https://github.com/dhiway/digital-resume
 
 8. Now, 'submit' should send the request to DSEP/BAP/BPP based on the context from the job listing.
 
+
+
 ----
 
 The Same VC which would get added in the digital resume can be verified by copy-pasting (or drag-dropping in Verification Tool - https://verify-demo.dhiway.com)
@@ -94,7 +99,11 @@ The Same VC which would get added in the digital resume can be verified by copy-
 
 * https://github.com/dhiway/digital-resume
 * https://github.com/dhiway/cord.js (SDK for Issuance and Verification of VCs).
+* https://github.com/affinidi/affinidi-core-sdk 
 
+Note: for higher productivity, leveraged the hosted version of Affinidi Open source SDK
+https://build.affinidi.com/docs/api
+Created API Key using https://apikey.affinidi.com/
 
 ### Status & Roadmap
 
